@@ -1,2 +1,0 @@
-system_name,run_number,sampling_rate,downsampling_ratio,T,W,bifurcation_limit,bifurcationIdx,lastIdx,convolutionMargin
-ieee9,2,0.01,1,10,1000,0.9,8579,9657,0.05
