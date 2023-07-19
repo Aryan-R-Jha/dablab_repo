@@ -3,4 +3,5 @@ function [sortedMat, sortedIndices] = sortColumnsBySum(mat)
     [~, sortedIndices] = sort(colSums, 'descend');  % Sort indices in descending order
     
     sortedMat = mat(:, sortedIndices);  % Rearrange columns based on sorted indices
+    sortedIndices = transpose(sortedIndices);
 end
